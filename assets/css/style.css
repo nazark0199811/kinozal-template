@@ -1,0 +1,178 @@
+.header-logo__title, .header-logo__description {
+  text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+}
+
+.header, .main, .left-sidebar {
+  margin-bottom: 80px;
+}
+
+.navbar-inverse {
+  background-color: #191919;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #165690;
+}
+
+.navbar-inverse .navbar-nav .active > a {
+  background-color: #053159;
+}
+
+.navbar-inverse .navbar-nav .active > a:focus, .navbar-inverse .navbar-nav .active > a:hover {
+  background-color: #517ba2;
+}
+
+.navbar-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.panel {
+  border: none;
+  background-color: #ededed;
+  margin-bottom: 30px;
+}
+
+.panel-info > .panel-heading {
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background-color: #df8a13;
+  border: none;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
+.input-lg,
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
+
+html {
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+body {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  color: #165690;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #df8a13;
+}
+
+.header-logo {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #232323;
+  background-image: url(../img/header-bg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.header-logo__title {
+  display: block;
+  color: #df8a13;
+  font-family: "PT Serif", serif;
+}
+
+.header-logo__description {
+  display: block;
+  color: #fff;
+  font-size: 1.15rem;
+  letter-spacing: 0.2em;
+}
+
+.left-sidebar .panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.vertical-slider__image {
+  width: 100%;
+}
+
+.user-login {
+  position: relative;
+}
+
+.user-login__tabs {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  border: none;
+}
+
+.user-login__tabs a {
+  background-color: transparent !important;
+  border: none !important;
+  color: #dddddd;
+  padding: 14px 5px 11px !important;
+}
+
+.user-login__tabs .active a {
+  color: #fff !important;
+}
+
+@media (min-width: 576px) {
+  .header-logo__title {
+    font-size: 3.5rem;
+    letter-spacing: 0.33em;
+    margin-right: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-nav > li > a {
+    border-radius: 4px;
+  }
+  .navbar-left li {
+    margin: 5px 5px 5px 0;
+  }
+  .navbar-right li {
+    margin: 5px 0 5px 5px;
+  }
+}
+
+@media (max-width: 767.8px) {
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+  }
+  .navbar-left {
+    margin-bottom: 0;
+  }
+  .navbar-right {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575.8px) {
+  .header-logo__title {
+    font-size: 2.5rem;
+    letter-spacing: 0.2em;
+    margin-right: -5px;
+  }
+}
